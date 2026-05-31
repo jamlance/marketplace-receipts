@@ -1,0 +1,13 @@
+{
+  "name": "marketplace-receipts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Inkress-embedded app: receipts (generated from jamlance/bookerva-apps).",
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.21.0"
+  }
+}

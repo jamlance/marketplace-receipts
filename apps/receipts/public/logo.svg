@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img">
+  <defs>
+    <linearGradient id="lg-receipts" x1="32" y1="3" x2="32" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="url(#lg-receipts)"/>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="#fff" opacity=".08"/>
+  <path fill="#fff" d="M21 14l3 2.4L27 14l3 2.4L33 14l3 2.4L39 14l3 2.4L45 14v32l-3-2.4L39 46l-3-2.4L33 46l-3-2.4L27 46l-3 2.4L21 46V14z"/><g stroke="#0f766e" stroke-width="2.4" stroke-linecap="round"><path d="M27 24h12"/><path d="M27 30h9"/></g><path fill="none" stroke="#0f766e" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" d="M27.5 38l2.8 2.8 6-6"/>
+</svg>

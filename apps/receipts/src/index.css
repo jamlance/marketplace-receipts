@@ -1,0 +1,31 @@
+@import "@inkress/apps-core/styles.css";
+
+/* Receipts — orders table, issued receipts, settings. */
+
+.rc-ref { font-family: var(--mono); font-size: 0.85rem; letter-spacing: 0.02em; }
+.rc-row-actions { display: flex; gap: 6px; justify-content: flex-end; align-items: center; flex-wrap: wrap; }
+
+.rc-form { display: flex; flex-direction: column; gap: 12px; }
+.rc-field { display: flex; flex-direction: column; gap: 5px; }
+.rc-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.rc-field-color input[type="color"] { width: 56px; height: 38px; padding: 2px; border-radius: 8px; cursor: pointer; }
+.rc-check { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--muted); cursor: pointer; }
+.rc-toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.rc-search { min-width: 160px; }
+.rc-note { display: flex; align-items: center; gap: 8px; margin-top: 14px; }
+
+/* settings preview */
+.rc-settings-cols { display: grid; grid-template-columns: 1.3fr 1fr; gap: 16px; align-items: start; }
+@media (max-width: 760px) { .rc-settings-cols { grid-template-columns: 1fr; } }
+.rc-preview { --ac: #0f766e; border: 1px solid var(--border, #e3eae8); border-radius: 12px; overflow: hidden; background: #fff; color: #1f2430; }
+.rc-pv-bar { height: 5px; background: var(--ac); }
+.rc-pv-body { padding: 18px; }
+.rc-pv-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 8px; }
+.rc-pv-head strong { font-size: 1rem; }
+.rc-pv-addr { color: #6b7280; font-size: 0.78rem; white-space: pre-line; margin-top: 2px; }
+.rc-pv-badge { font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 3px 9px; border-radius: 20px; background: #dcfce7; color: #166534; }
+.rc-pv-meta { color: #6b7280; font-size: 0.78rem; margin-bottom: 8px; }
+.rc-pv-line { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eef2f1; font-size: 0.88rem; }
+.rc-pv-brk { display: flex; justify-content: space-between; padding: 4px 0; color: #6b7280; font-size: 0.82rem; }
+.rc-pv-total { display: flex; justify-content: space-between; padding-top: 10px; font-weight: 800; font-size: 1.05rem; color: var(--ac); border-top: 2px solid #eef2f1; margin-top: 4px; }
+.rc-pv-foot { color: #9aa4b2; font-size: 0.75rem; margin-top: 12px; text-align: center; white-space: pre-line; }
